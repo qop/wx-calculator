@@ -1,0 +1,34 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="operate-container">
+  <view class="operate-container-line">
+    <view class="item sub-operator">AC</view>
+    <view class="item sub-operator">+/-</view>
+    <view class="item sub-operator">%</view>
+    <view class="item operator">÷</view>
+  </view>
+  <view class="operate-container-line">
+    <view class="item number" hover-class="test">7</view>
+    <view class="item number">8</view>
+    <view class="item number">9</view>
+    <view class="item operator">×</view>
+  </view>
+  <view class="operate-container-line">
+    <view class="item number">4</view>
+    <view class="item number">5</view>
+    <view class="item number">6</view>
+    <view class="item operator">-</view>
+  </view>
+  <view class="operate-container-line">
+    <view class="item number">1</view>
+    <view class="item number">2</view>
+    <view class="item number">3</view>
+    <view class="item operator">+</view>
+  </view>
+  <view class="operate-container-line">
+    <view class="item col-2">0</view>
+    <view class="item number">.</view>
+    <view class="item operator">=</view>
+  </view>
+  </view>
+</view>
